@@ -162,20 +162,49 @@ h2 {
     body {
         font-size: 20px;
     }
+    #section-divider {
+        width: 2%;
+        margin-right: 50px;
+    }
     hr {
         height: 10px;
         border: 0;
         box-shadow: 0 10px 10px -10px #8c8b8b inset;
         padding: 7% 15%;
     }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .col {}
-    hr {
-        height: 10px;
-        border: 0;
-        box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    h2 {
+        font-size: 100%;
+        width: 100%;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .tb {
+        font-size: 70%;
+    }
+    .table {
+        font-size: 60%;
+    }
+    .bio {
         padding: 7% 15%;
+    }
+    #education {
+        padding: 7% 15%;
+    }
+    #certificates {
+        padding: 7% 10%;
+    }
+    .certificates-align {
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    #skils {
+        padding: 7% 10%;
+    }
+    .skills-align {
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.5;
     }
 }
